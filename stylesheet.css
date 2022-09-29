@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Play', sans-serif;
+    background-color: rgb(234, 232, 232);
+  }
+  nav{
+    background-color:white;
+    height: 80px;
+    width: 100%;
+  }
+  #logo{
+    position: absolute;
+    top: 33px;
+    left: 33px;
+  }
+  #logo img {
+    height: 70px;
+  }
+  #logo:hover{
+    background-color: lightgreen;
+  }
+  section div a img:hover{
+    background: lightgreen;
+  }
+  nav ul{
+    position: absolute;
+    left: 700px;
+    top: 6px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: rgb(161, 161, 161);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 2px;
+    text-transform: uppercase;
+  }
+  nav ul li a:hover{
+    background-color: lightgreen;
+  }
+  a.active{
+    background: rgb(190, 248, 190);
+    transition: .5s;
+  }
+  section div img{
+    position: relative;
+    padding: 10px;
+    left: 225px;
+    top: 70px;
+    width: 900px;
+    height: 200px;
+  }
+     
+
