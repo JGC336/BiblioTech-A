@@ -46,7 +46,8 @@
     text-transform: uppercase;
   }
   nav ul li a:hover{
-    background-color: lightgreen;
+    background-color: rgb(22, 148, 22);
+    color: white;
   }
   a.active{
     background: rgb(190, 248, 190);
@@ -54,11 +55,24 @@
   }
   section div img{
     position: relative;
-    padding: 10px;
+    padding: 15px;
     left: 225px;
     top: 70px;
     width: 900px;
     height: 200px;
+    background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
   }
-     
-
+  #menu_banner{
+    position: absolute;
+    width: 870px;
+    height: 30px;
+    left: 240px;
+    top: 300px;
+    background-color: lightgray;
+    opacity: 0.5;
+  }
+  #menu_banner img{
+    width: 100px;
+    height: 100px;
+  }
+ 
